@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{073AE3CE-A50E-6D39-63FB-66D18C907BA0}") = "PureMVC_AudioRecord", "Assembly-CSharp.csproj", "{DEB33704-4EAB-5108-276C-5FED99F565B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEB33704-4EAB-5108-276C-5FED99F565B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB33704-4EAB-5108-276C-5FED99F565B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB33704-4EAB-5108-276C-5FED99F565B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB33704-4EAB-5108-276C-5FED99F565B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

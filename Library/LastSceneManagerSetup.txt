@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/02_Audio_Recoder.unity
+  isLoaded: 1
+  isActive: 1
