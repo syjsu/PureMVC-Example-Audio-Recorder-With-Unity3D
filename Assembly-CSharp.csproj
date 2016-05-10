@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DEB33704-4EAB-5108-276C-5FED99F565B3}</ProjectGuid>
+    <ProjectGuid>{2EDFD33C-DC66-3DFA-0AF3-E4F7F352FC87}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,7 +49,7 @@
      <Compile Include="Assets\Scripts\Controller\DeleteUserCommand.cs" />
      <Compile Include="Assets\Scripts\Controller\StartupCommand.cs" />
      <Compile Include="Assets\Scripts\EventsEnum.cs" />
-     <Compile Include="Assets\Scripts\Model\DataObject\RecordDO.cs" />
+     <Compile Include="Assets\Scripts\Model\DataObject\RecordVO.cs" />
      <Compile Include="Assets\Scripts\Model\DataObject\UserVO.cs" />
      <Compile Include="Assets\Scripts\Model\RecordProxy.cs" />
      <Compile Include="Assets\Scripts\Model\UserProxy.cs" />
@@ -66,7 +66,7 @@
  <HintPath>/Applications/Unity5.3/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="PureMVC.DotNET.35">
- <HintPath>/Users/smallsu/Desktop/PureMVC_AudioRecord/Assets/Plugins/PureMVC.DotNET.35.dll</HintPath>
+ <HintPath>/Users/smallsu/Library/Mobile Documents/com~apple~CloudDocs/Github Code/PureMVC-Example-Audio-Recorder-With-Unity3D/Assets/Plugins/PureMVC.DotNET.35.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity5.3/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

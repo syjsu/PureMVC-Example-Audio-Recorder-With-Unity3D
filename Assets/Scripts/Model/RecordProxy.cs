@@ -14,6 +14,8 @@ public class RecordProxy : Proxy, IProxy
 		rec.name = "Audio Record Proxy";
 		recordedAudio = rec.AddComponent<AudioSource>();
 	}
+	//数据模型
+	private RecordVO m_RecordVO;
 
 	//全局录音变量
 	private AudioSource recordedAudio;
@@ -69,6 +71,8 @@ public class RecordProxy : Proxy, IProxy
 
 			}
 		}
+		Debug.Log ("调用RecordVO 保存录音");
+		m_RecordVO = new RecordVO ("我的录音","录音时间","录音频率","录音大小");
 	}
 
 	//正常速率播放录音

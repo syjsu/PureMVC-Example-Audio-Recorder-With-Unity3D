@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RecordDO{
+public class RecordVO{
 
 	//构造器
-	public RecordDO(string RecordName,string RecordTime,string RecordFre,string RecordSize)
+	public RecordVO(string RecordName,string RecordTime,string RecordFre,string RecordSize)
 	{
-		Debug.Log ("进入RecordDO的构造器");
+		Debug.Log ("进入RecordVO的构造器");
 
 		//构造函数的值
 		if(RecordName!=null)
